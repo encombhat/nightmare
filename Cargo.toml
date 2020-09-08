@@ -1,0 +1,17 @@
+[package]
+name = "nightmare"
+version = "0.1.0"
+authors = ["Black Hat <bhat@encom.eu.org>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.10", features = ["json"] }
+tokio = { version = "0.2", features = ["full"] }
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+sys-info = "0.7"
+sha3 = "0.9"
+data-encoding = "2.3"
+url = { version = "2", features = ["serde"] }
